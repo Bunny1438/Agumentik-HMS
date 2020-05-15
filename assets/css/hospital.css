@@ -1,0 +1,192 @@
+
+.ico-product-features{
+    position: relative;
+    z-index: 1;
+  
+}
+.m-0-auto{
+    margin: 0 auto;
+}
+.product-features.ico-bg{
+    background: #fff;
+    overflow: hidden;
+}
+.all-features{
+    text-align: center;
+}
+nav.navbar.bootsnav.navbar-ico ul.nav > li > a {
+    color: #fff;
+}
+nav.navbar.bootsnav.navbar-ico ul.nav > li > a:hover {
+    color: #05ffe6 !important;
+}
+nav.navbar.bootsnav .navbar-toggle{
+    background: transparent;
+    color: #fff;
+}
+.content-text .ico-features{
+    padding-left: 0;
+}
+.ico-features li{
+    list-style: none;
+}
+.ico-features li i{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.ico-product-features .product-image figure:before,
+.ico-tab .tab-pane figure:before {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: -1;
+    background:#6871f4 ;
+    transition: all linear 0.3s;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-7deg);
+    border-radius: 15px;
+}
+.ico-product-features .product-image figure:hover:before,
+.ico-tab .tab-pane figure:hover:before {
+    transform: rotate(5deg);
+}
+
+.ico-tab .tab-pane .col-md-6.pr-60{
+    padding-right: 60px;
+}
+.ico-tab h2{
+    margin: 0 0 20px;
+}
+.product.ico-demo{
+    -webkit-box-shadow: 7px 5px 30px rgba(72,73,121,0.35);
+    box-shadow: 7px 5px 30px rgba(72,73,121,0.35);
+    background: #fff;
+    padding: 13px;
+}
+.ico-demo .product-title{
+    width: 100%;
+    text-align: center;
+}
+.ico-demo .product-list-info{
+    padding: 15px;
+}
+@media (max-width: 1199px){
+    .ico-header-text .title{
+        font-size: 35px;
+    }
+    .ico-header-text .subtitle{
+        font-size: 16px;
+    }
+    .ico-header-text-inner{
+        max-width: 700px;
+    }
+}
+@media (max-width: 991px){
+    .ico-tab .nav>li{
+        float: left;
+        width: 33.33%;
+    }
+    .ico-tab .nav li a {
+        border-right: 1px solid #0eb5a6;
+    }
+    .ico-tab .nav>li:last-child{
+        border-bottom: 1px solid #0eb5a6;
+    }
+    .ico-tab .nav.nav-pills {
+        border-bottom: 0;
+        border-right: 0;
+    }
+    .ico-tab .ico-tab-inner .tab-content,
+    .ico-tab .tab-pane figure{
+        margin-top: 35px;
+    }
+    .ico-tab .ico-tab-inner .tab-content{
+        display: block;
+        overflow: hidden;
+    }
+    .more-btn{
+        text-align: left;
+        margin-top: 30px;
+    }
+    .content-text.p-l{
+        padding-left: 40px;
+    }
+    .content-text.p-r{
+        padding-right: 40px;
+    }
+    .content-text .feature-title{
+        font-size: 24px;
+    }
+    .content-text.pl-lg-0{
+        padding-left: 0;
+    }
+    .all-features{
+        text-align: left;
+    }
+    nav.navbar .navbar-brand img.logo{
+        width: 90px;
+    }
+}
+@media (max-width: 767px){
+    .ico-header-text-inner{
+        max-width: 90%;
+    }
+    .ico-header-text .title{
+        font-size: 25px;
+    }
+    .ico-header-text .subtitle{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .ico-tab .tab-pane .col-md-6.pr-60{
+        padding-right: 0;
+    }
+    .ico-tab .nav>li {
+        width: 50%;
+    }
+    .content-text.p-r {
+        margin-bottom: 30px;
+    }
+    .ico-template .section-title h2{
+        font-size: 35px;
+    }
+    .product-row{
+        margin: 0 0 35px;
+    }
+    .product-image{
+        width: 60%;
+    }
+    .content-text.p-l{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .all-features{
+        padding-left: 15px;
+    }
+    .ico-make-money{
+        padding: 70px 0 0;
+    }
+}
+@media (max-width: 520px){
+    .col-vxs-12,
+    .product-image{
+        width: 100%;
+    }
+    .ico-btn{
+        padding: 0 15px;
+    }
+    .ico-btn span{
+        font-size: 15px;
+    }
+    .content-text .feature-title{
+        font-size: 20px;
+    }
+}
+@media (max-width: 420px){
+    .ico-tab .nav>li {
+        width: 100%;
+    }
+}

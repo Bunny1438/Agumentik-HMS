@@ -1,0 +1,56 @@
+
+.product-row{
+    margin-bottom: 70px;
+}
+.product-row:last-child{
+    margin-bottom: 0;
+}
+.product-image {
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) {
+    .p-l{
+        padding-left: 80px;
+    }
+    .p-r{
+        padding-right: 80px;
+    }
+}
+
+.content-text .feature-title {
+    margin: 0 0 20px;
+    font-size: 32px;
+}
+.content-text .feature-title span {
+    font-family: 'Open-Sans', serif;
+    color: #36415f;
+    font-weight: 600;
+}
+.content-text p,
+.details-text p,
+.content p,
+.choose-text p,
+.contact-content p,
+.card-content p{
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    letter-spacing: -0.3px;
+}
+@media (max-width: 767px){
+    .content-text p,
+    .details-text p,
+    .content p,
+    .details-text ul li,
+    .content-text ul li,
+    .body-text ul li,
+    .card-content p{
+        font-size: 15px;
+    }
+    .content-text h1 {
+        font-size: 24px;
+    }
+}
+/*------------ Product Features Two ------------*/
