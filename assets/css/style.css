@@ -921,9 +921,9 @@ margin-top: 45px; }
     text-transform: capitalize;
 margin-top: 15px;
 }
-.mt-50{
+/* .mt-50{
   margin-top: 50px;
-} 
+}  */
 .mt_90{
   margin-top:90px;
 } 
@@ -1086,9 +1086,9 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .pricingTable{
     text-align: center;
 }
-.mt-50{
+/* .mt-50{
   margin-top: 40px !important;
-}
+} */
 .tebel-color.pricingTable .pricingTable-header{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
