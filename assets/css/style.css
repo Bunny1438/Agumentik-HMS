@@ -3117,6 +3117,19 @@ margin-bottom: 15px;}
     padding: 18px 30px !important;}
     .title h2{
       padding-top: 0px !important;
+      font-size: 30px;
+
+    }
+  .container-fluid{
+    margin-left: -12%;
+  }
+ 
+    .title h3{
+      font-size: 30px;
+      
+    }
+    .about_left_text h1{
+      font-size: 35px;
     }
 .top-banner .button-banner{
       font-size: 12px !important;
@@ -3126,7 +3139,8 @@ margin-bottom: 15px;}
     }
 
     p.about_bottom_h.mt-50 {
-    padding: 0px 10px;
+    padding: 0px 23px;
+    font-size: 16px;
 }
 .m-s{
   padding:0px !important;
@@ -3206,7 +3220,7 @@ div#banner-text {
     padding:30px;
   }
   .title h1 {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .title-left h1 {
     font-size: 30px;
@@ -3292,7 +3306,7 @@ font-size: 12px;
     text-align: center;
   }
   .title h1 {
-    font-size: 25px !important;
+    font-size: 22px !important;
 }
 .testimonial_area .testimonial_carosel .item .media .media-left {
     padding-right:10px;
@@ -3313,7 +3327,7 @@ font-size: 12px;
     padding: 18px 22px;
   }
   .list-group-item span {
-    font-size: 18px;}
+    font-size: 12px;}
 
 p.about_bottom_h.wow.fadeInUp {font-size: 15px;
   }
