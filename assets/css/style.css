@@ -1008,6 +1008,7 @@ div.bhoechie-tab-menu{
 }
 div.bhoechie-tab-menu div.list-group{
   margin-bottom: 0;
+  margin-left: 5px;
 }
 
     
@@ -3194,7 +3195,8 @@ button.navbar-toggle {
   padding-top: 30px;
 }
   .pl_90 {
-    padding-left: 40px;
+    padding-left: 50px;
+    padding-right:5px;
 }
 
 .pr_90 {
