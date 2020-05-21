@@ -1780,9 +1780,9 @@ padding-bottom: 90px;
 }
 
 .our_footer_area{
-  background-image: url(../images/footer-img.jpg);
+  background-image: url(../images/bga.png);
     padding-top:70px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
