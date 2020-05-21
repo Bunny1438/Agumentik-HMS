@@ -31,7 +31,6 @@
 .btn-default {
  background: #265db9 !important;
     background-image: linear-gradient(to right top ,#6871f4,#6871f4,#6871f48f,#265db9 ,#265db9b0 )!important;
-    color: #fff !important;
 }
 .btn-default:before {
     content: "";
@@ -500,6 +499,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
       border-radius: 5px;
  background: #265db9 !important;
     background-image: linear-gradient(to right top ,#6871f4,#6871f4,#6871f48f,#265db9 ,#265db9b0 )!important;
+   
 }
 .header-menu-toggle.opaque::before {
   display: none;
@@ -756,8 +756,8 @@ img{
 
 
 .about_left_text{
-      background: #1c3c8a !important;
-    background-image: linear-gradient(to right top ,#255ab6,#255ab6,#255ab694,#1c3c8a94,#1c3c8ab5)!important;
+     background: #265db9 !important;
+    background-image: linear-gradient(to right top ,#6871f4,#6871f4,#6871f48f,#265db9 ,#265db9b0 )!important;
     padding: 30px;
     margin: 60px 0px;
     box-shadow: -5px 15px 50px #00000085 !important;
@@ -1045,7 +1045,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
       position: absolute;
     width: 100%;
     height: 1000px;
-  background:#e8eafd;
+  background:#E9EBFD;
 
   padding-bottom: 200px;
       clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 100%, 10% 100%, 0% 101%, 0% 100%);
@@ -1260,7 +1260,7 @@ a{
     position: absolute;
     width: 100%;
     height: 1000px;
-    background: #e8eafd;
+    background: #E9EBFD;
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 40%, 0% 100%, 0% 87%, 0% 100%) ;
    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 40%, 0% 100%, 0% 87%, 0% 100%) !important;
 }
@@ -1540,8 +1540,7 @@ font-weight:600;
     font-weight: 500;
 }
 .bg_gary{
-  background:#e8eafd !important;
-}
+ background: #e8eafd !important;}
 
 .bottom-partner{  
 position: relative;
@@ -1552,7 +1551,7 @@ position: relative;
 }
 
 .bg-new{
-  background:#e8eafd !important;
+  background:#Fbfbfb !important;
   padding:20px;
       -webkit-transform: skew(-8deg);
     -moz-transform: skew(-8deg);
@@ -1691,7 +1690,8 @@ a {
 
 .button_12{
   padding:12px 28px !important;
-  background:#6871f4 !important;
+background: #265db9 !important;
+    background-image: linear-gradient(to right top ,#6871f4,#6871f4,#6871f48f,#265db9 ,#265db9b0 )!important;
 }
 
 
