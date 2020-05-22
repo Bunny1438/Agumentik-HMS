@@ -2254,10 +2254,10 @@ padding-bottom: 30px;
 box-shadow: 5px 8px 50px #cececead;
 }
 .service-about-services p {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.7em;
     color: #97a6b9;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 /*------------------------------------
 *.service  right img End
@@ -3191,6 +3191,9 @@ button.navbar-toggle {
   .bigpixi-footer-social {
     margin: 30px 0px;
 }
+ .bigpixi-footer-social a {
+    color: #000 !important;
+}
 .bg_top_table{
   padding-top: 30px;
 }
@@ -3208,6 +3211,7 @@ button.navbar-toggle {
     font-size: 30px;
     line-height: 40px;
     text-align: center;
+    margin-top: 20%;
   }
   p.banner-text.wow.fadeInUp.main-h3 {
     text-align: center;
